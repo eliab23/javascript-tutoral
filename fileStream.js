@@ -11,5 +11,5 @@ readablestream.on("data", (chunks) =>{
     console.log(chunks);
     writablestream.write(chunks)
 })
-
+// or we can use by simple way pipe used
 readablestream.pipe(writablestream)
