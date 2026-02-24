@@ -3,4 +3,7 @@
 
 // require("./EventModule")
 
-require("./StreamBufferm") 
+// require("./StreamBufferm") 
+
+const data = require("./data.json");
+console.log(data)
